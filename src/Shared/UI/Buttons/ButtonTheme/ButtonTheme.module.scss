@@ -1,0 +1,26 @@
+.buttonTheme{
+  --size: 40px;
+  max-width: var(--size);
+  max-height: var(--size);
+  min-height: var(--size);
+  min-width: var(--size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-700);
+  border-radius: var(--br-default);
+  border: 1px solid var(--gray-600);
+  cursor: pointer;
+  transition: border var(--tr-default), color var(--tr-default), transform var(--tr-default);
+
+  @media(hover: hover){
+    &:hover{ 
+      color: var(--orange-600);
+      border: 1px solid var(--orange-600); 
+    }
+  }
+
+  &:active{ 
+    transform: scale(.95);
+  }
+}

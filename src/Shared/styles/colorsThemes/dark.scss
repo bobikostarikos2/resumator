@@ -1,0 +1,15 @@
+[data-app-theme="dark"] {
+  --bg-main: #0f172a;
+  --bg-surface: #1e293b;
+
+  --txt-default: var(--gray-50);
+
+  --separator-default: var(--gray-700);
+
+  --bg-btn-main: var(--gray-600);
+  --bg-btn-main-hover: var(--orange-600);
+
+  --color-btn-theme: var(--gray-600);
+  --border-btn-theme: var(--gray-600);
+  --border-btn-theme-hover: var(--orange-500);
+}

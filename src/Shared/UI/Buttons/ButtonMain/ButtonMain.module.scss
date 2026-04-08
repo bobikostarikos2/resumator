@@ -1,0 +1,13 @@
+.btnMain{
+  padding: 10px 12px;
+  width: fit-content;
+  background-color: var(--bg-btn-main);
+  border-radius: var(--br-default);
+  color: white;
+  cursor: pointer;
+  transition: background-color var(--tr-default);
+
+  &:hover{
+    background-color: var(--bg-btn-main-hover);
+  }
+}
