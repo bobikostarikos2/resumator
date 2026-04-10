@@ -4,7 +4,7 @@
   align-content: center;
   column-gap: 8px;
   width: 100%;
-  padding: 18px 16px;
+  padding: 18px var(--global-side-padding);
   border-bottom: 1px solid var(--separator-default);
 
   &__gridLogo{

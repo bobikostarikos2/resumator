@@ -7,6 +7,4 @@ export const useThemeSync = () => {
   useEffect(() => {
     document.body.setAttribute('data-app-theme', theme)
   }, [theme])
-
-  
 }

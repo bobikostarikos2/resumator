@@ -1,0 +1,1 @@
+export const OVERLAY_VISIBLE_TIME = 60000;

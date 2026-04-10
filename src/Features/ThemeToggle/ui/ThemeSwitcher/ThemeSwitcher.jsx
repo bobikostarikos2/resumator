@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux'
-import { toggleTheme } from '@shared/store/modules/theme/themeSlice'
+import { toggleTheme } from '@shared/store/modules/theme'
 import ButtonTheme from '@ui/Buttons/ButtonTheme/ButtonTheme'
 
 function ThemeSwitcher(){

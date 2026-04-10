@@ -1,0 +1,10 @@
+.overlayList{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  z-index: var(--z-overlay);
+  position: fixed;
+  bottom: 16px;
+  right: var(--global-side-padding);
+}

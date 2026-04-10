@@ -1,0 +1,19 @@
+.overlayItem{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 220px;
+  width: fit-content;
+  gap: 8px;
+  color: var(--gray-50);
+  border-radius: var(--br-default);
+  padding: 8px 12px;
+
+  &--success{
+    background-color: var(--bg-overlay-success);
+  }
+
+  &--error{
+    background-color: var(--bg-overlay-negative);
+  }
+}
