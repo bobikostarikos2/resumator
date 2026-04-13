@@ -3,7 +3,6 @@ import { showMessageSaga, dismissMessageSaga } from '@shared/store/modules/overl
 import OverlayItem from '../OverlayItem/OverlayItem'
 
 import styles from './OverlayList.module.scss';
-import { useEffect } from 'react';
 
 function OverlayList(){
   const dispatch = useDispatch()

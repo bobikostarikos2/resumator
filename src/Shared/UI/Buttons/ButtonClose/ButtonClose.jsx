@@ -1,10 +1,10 @@
 import styles from './ButtonClose.module.scss'
 
-function ButtonClose({ size = 28, color = 'var(--gray-900)', onClick }) {
+function ButtonClose({ size = 28, color = 'var(--gray-900)', onClick, className }) {
   return (
     <button
-      onClick={onClick()}
-      className={styles.buttonClose}
+      onClick={onClick}
+      className={`${styles.buttonClose} ${className || ''}`}
       style={{ width: size, height: size, color }}
     >
       <svg width={size * 0.4} height={size * 0.4} viewBox="0 0 8 8" fill="none">

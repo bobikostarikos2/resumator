@@ -1,0 +1,19 @@
+.defaultScroll {
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    transition: background-color .2s;
+    background-color: var(--scroll-color);
+    border-radius: 2px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scroll-color-hover);
+  }
+}

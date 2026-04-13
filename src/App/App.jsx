@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { useThemeSync } from '@features/ThemeToggle/hooks/useThemeSync'
+
 import HomePage from '@pages/Home/HomePage'
 import Header from "@widgets/Header/Header"
+
+import { ThemeSync } from '@features/ThemeToggle'
 import { OverlayManager } from '@features/OverlayManager'
+import { PopupModalsControl } from '@features/PopupModals'
 
 function App() {
-  useThemeSync()
   
   return (
     <BrowserRouter>
@@ -14,6 +16,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
       </Routes>
       <OverlayManager />
+      <PopupModalsControl />
+      <ThemeSync />
     </BrowserRouter>
   )
 }

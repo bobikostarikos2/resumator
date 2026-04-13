@@ -1,8 +1,8 @@
 import styles from './ButtonMain.module.scss'
 
-function ButtonMain({ text }) {
+function ButtonMain({ text, onClick }) {
   return (
-    <button className={styles.btnMain}>
+    <button className={styles.btnMain} onClick={onClick}>
       { text }
     </button>
   )
