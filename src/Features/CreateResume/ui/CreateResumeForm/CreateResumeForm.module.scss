@@ -1,0 +1,60 @@
+.createResumeForm{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  padding: 0 12px;
+
+  &__ttl{
+    color: var(--h2-color);
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  &__section{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 0 16px;
+    border-bottom: 1px solid var(--separator-default);
+    width: 100%;
+
+    &:last-of-type{
+      border-bottom: 0;
+    }
+  }
+
+  &__sectionTtl{
+    color: var(--h3-color);
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  &__personalGrid{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    row-gap: 12px;
+    column-gap: 12px;
+  }
+
+  &__gridAvatar{
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+  }
+
+  &__gridSurname{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+  }
+
+  &__gridName{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  &__gridPatronymic{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+}
